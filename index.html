@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Two Good Co</title>
     <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1499265096006000640/ZhEnSTch_400x400.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,14 +13,29 @@
         <div id="page1">
             <h1><span>CHANGE </span></h1> 
             <h1>THE COURSE</h1>
+            <div id="video-container">
+                <div id="play">PLAY</div>
+                <video autoplay loop muted src="./video.mp4"></video>
+            </div>
         </div>
-        <div id="video-container">
-            <div id="play">PLAY</div>
-            <video autoplay loop muted src="./video.mp4"></video>
+        <div id="page2">
+            <div id="elem1" class="elem">
+                <img data-scroll data-scroll-speed="1" src="https://cdn.sanity.io/images/w8f1ak3c/production/a54b969c847029357a401e2d8ea5d52abd5451d0-2250x1500.jpg/DSC0051_Dexter%20Kim%20copy.jpg?rect=675,0,900,1500&w=640&h=1067&fit=min&auto=format" alt="">
+            </div>
+            <div id="elem2" class="elem">
+                <img data-scroll data-scroll-speed="1" src="https://cdn.sanity.io/images/w8f1ak3c/production/bc3f529e3f10086db91822f615caf549a260362d-1500x2250.jpg/DSC0083_Dexter%20Kim.jpg?rect=75,0,1350,2250&w=640&h=1067&fit=min&auto=format" alt="">
+            </div>
+            <div id="elem3" class="elem">
+                <img data-scroll data-scroll-speed="1" src="https://cdn.sanity.io/images/w8f1ak3c/production/d3151106849ff2494d66916cf554c68a0603444d-902x1500.png/Rectangle%20220.png?rect=1,0,900,1500&w=640&h=1067&fit=min&auto=format" alt="">
+            </div>
+        </div>
+        <div id="page3">
+
         </div>
     </div>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>

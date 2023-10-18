@@ -1,6 +1,11 @@
 const videoContainer = document.querySelector("#video-container");
 const playBtn = document.querySelector("#play");
 
+const locoScroll = new LocomotiveScroll({
+  el: document.querySelector("#main"),
+  smooth: true,
+});
+
 const videoContainerAnimation = () => {
     videoContainer.addEventListener("mouseenter", function () {
       gsap.to(playBtn, {
@@ -17,8 +22,8 @@ const videoContainerAnimation = () => {
     });
     videoContainer.addEventListener("mousemove", function (dets) {
       gsap.to(playBtn, {
-        left: dets.x -50,
-        top: dets.y-80,
+        left: dets.x-60,
+        top: dets.y-90,
       });
     });
   };
