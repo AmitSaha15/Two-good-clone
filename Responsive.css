@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     #page1 {
         width: 100%;
         min-height: 70vh;
@@ -6,32 +6,33 @@
         padding-top: 25vh;
     }
 
-  #page1 > h1 {
-    font-size: 15.5vw;
-    letter-spacing: -4px;
-  }
-  #video-container {
-    height: 25vh;
-    margin-top: 3vw;
-  }
-  #video-container > #play {
-    opacity: 1;
-    scale: 1;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    cursor: pointer;
-  }
-  #page2 {
-    flex-direction: column;
-    align-items: center;
-    padding: 5vw 3vw;
-  }
-  #page2 > .elem {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 3vw;
-  }
+    #page1 h1 {
+      font-size: 15.5vw;
+      letter-spacing: -4px;
+    }
+    #video-container {
+      height: 25vh;
+      margin-top: 3vw;
+    }
+    #video-container #play {
+      opacity: 1;
+      scale: 1;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      padding: 6.4vw 5vw;
+      font-size: 3vw;
+    }
+    #page2 {
+      flex-direction: column;
+      align-items: center;
+      padding: 5vw 3vw;
+    }
+    #page2 .elem {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 3vw;
+    }
 }
