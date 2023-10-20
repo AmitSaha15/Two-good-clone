@@ -35,4 +35,8 @@
       overflow: hidden;
       margin-bottom: 3vw;
     }
+    .child {
+      width: 88vw;
+      padding: 15vw;
+    }
 }
