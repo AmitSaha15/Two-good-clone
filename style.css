@@ -81,7 +81,7 @@ html, body{
 }
 
 #page2{
-    height: 115vh;
+    min-height: 115vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -175,7 +175,44 @@ html, body{
 
 /* page 3 */
 
-#page3{
-    height: 100vh;
-    width: 100%;
+#page3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 1vw;
+}
+
+.page3-text1 {
+  width: 52%;
+  font-family: futura;
+  font-size: 3vw;
+  line-height: 4.3vw;
+  letter-spacing: -2px;
+}
+
+.page3-text2 {
+  width: 31%;
+  padding-right: 60px;
+  font-family: gilroy;
+  font-size: 1.2vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.line {
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: ease-in-out all 0.3s;
+  font-size: 1.2vw;
+  font-family: futura;
+}
+
+.line:hover {
+  border-bottom: 2px solid #000;
 }
