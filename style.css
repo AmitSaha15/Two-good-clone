@@ -16,6 +16,16 @@ html, body{
     background: #f7f7f7;
 }
 
+#cursor{
+  height: 150px;
+  width: 150px;
+  background-color: #f5dfcf;
+  border-radius: 50%;
+  position: fixed;
+  /* transform: scale(0); */
+  transform: translate(-50%,-50%) scale(0);
+}
+
 /* page 1 */
 
 #page1{
@@ -198,7 +208,6 @@ html, body{
   font-family: gilroy;
   font-size: 1.2vw;
   display: flex;
-  flex-wrap: wrap;
   align-items: start;
   justify-content: center;
   flex-direction: column;
@@ -215,4 +224,30 @@ html, body{
 
 .line:hover {
   border-bottom: 2px solid #000;
+}
+
+/* page 4 */
+
+#page4{
+  min-height: 200vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #f7f7f7;
+}
+
+.child{
+  height: 60vh;
+  width: 45vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child img{
+  height: 100%;
 }
