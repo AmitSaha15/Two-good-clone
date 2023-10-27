@@ -292,6 +292,7 @@ html, body{
   height: auto;
   width: 90%;
   cursor: pointer;
+  z-index: 2;
 }
 .child p{
   font-family: gilroy;
@@ -300,11 +301,131 @@ html, body{
   cursor: pointer;
 }
 #child1 img{
-  margin-bottom: 90px;
+  margin-bottom: 120px;
 }
 #child4 img{
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 #child6 img{
-  margin-bottom: 22px;
+  margin-bottom: 25px;
+}
+
+/* page 5 */
+
+#page5 .page5-text {
+  font-size: 5rem;
+  text-align: center;
+  width: 80%;
+  margin: 2rem auto;
+  font-family: Futura;
+  font-weight: 800;
+  line-height: 5rem;
+  letter-spacing: -2px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.page5-text2 {
+  font-family: gilroy;
+  font-weight: 200;
+  font-size: 1rem !important;
+  letter-spacing: 0px;
+  width: 50%;
+  line-height: 1.2rem;
+}
+.page5-Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.8rem;
+  font-weight: 200;
+  font-family: futura;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #f7f7f7;
+  cursor: pointer;
+  padding: 1rem 4rem;
+  margin-top: 50px;
+  border-radius: 50px;
+  transition: ease-in-out all 0.3s;
+}
+.page5-Button:hover {
+  background-color: #f7f7f7;
+  color: #000;
+}
+
+/* page 6 */
+
+#page6 {
+  margin-top: 23rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  /* padding: 2rem; */
+  width: 100%;
+  gap: 2rem;
+}
+
+.page6-Heading {
+  font-family: futura;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+}
+
+.page6-text {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 1.8rem;
+  word-wrap: break-word;
+}
+.page6-img-1 {
+  width: 33%;
+  height: 100%;
+  /* width: 30rem; */
+  overflow: hidden;
+}
+.page6-img-1 img {
+  width: 27rem;
+  object-fit: cover;
+  scale: 1.1;
+}
+.page6-img-2 img {
+  width: 27rem;
+  object-fit: cover;
+  scale: 1.1;
+}
+.page6-img-2 {
+  width: 33%;
+  overflow: hidden;
+}
+
+/* page 7 */
+
+#page7{
+  min-height: 60px;
+}
+.line2{
+  border-bottom: 1px solid #434343;
+  padding-top: 25px;
+  margin: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: futura;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.line2 i{
+  cursor: pointer;
 }
