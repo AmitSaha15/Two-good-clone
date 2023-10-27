@@ -13,7 +13,7 @@
 html, body{
     height: 100%;
     width: 100%;
-    background: #fff;
+    background: #f7f7f7;
 }
 
 #nav{
@@ -24,6 +24,13 @@ html, body{
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+#nav #nav-part1{
+  height: 82px;
+  overflow: hidden;
+}
+#nav-part1 svg{
+  display: block;
 }
 #nav #nav-part2{
   display: flex;
@@ -44,7 +51,7 @@ html, body{
 #icons{
   padding: 10px;
   border-radius: 50px;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 #nav-part2 #icons i{
   margin: 0 20px;
@@ -262,25 +269,42 @@ html, body{
 /* page 4 */
 
 #page4{
-  min-height: 200vh;
+  min-height: 300vh;
   width: 100%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #f7f7f7;
 }
 
 .child{
-  height: 60vh;
+  height: 100vh;
   width: 45vw;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .child img{
-  height: 100%;
+  height: auto;
+  width: 90%;
+  cursor: pointer;
+}
+.child p{
+  font-family: gilroy;
+  font-size: 13px;
+  padding: 5px 0;
+  cursor: pointer;
+}
+#child1 img{
+  margin-bottom: 90px;
+}
+#child4 img{
+  margin-bottom: 70px;
+}
+#child6 img{
+  margin-bottom: 22px;
 }
