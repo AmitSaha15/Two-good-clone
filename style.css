@@ -429,3 +429,65 @@ html, body{
 .line2 i{
   cursor: pointer;
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100%;
+  gap: 2rem;
+}
+
+footer div p {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  color: #3f3f3f;
+}
+
+footer div ul {
+  list-style: none;
+  display: flex;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  font-family: "Futura";
+  flex-direction: column;
+  cursor: pointer;
+}
+footer div .part-2 li{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer div img {
+  width: 20rem;
+}
+
+#extended-footer .rights{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin-top: 2rem;
+}
+#extended-footer .rights p{
+  font-size: 13px;
+  color: #676767;
+}
+#extended-footer .rights span p{
+  cursor: pointer;
+}
+
+.footer-text{
+  min-height: 25vh;
+  text-align: center;
+  padding: 0 17rem;
+  font-size: 13.7px;
+  line-height: 17px;
+  margin: 55px 0px;
+}
