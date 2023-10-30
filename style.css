@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Futura;
+  src: url(./Futura-Bold.ttf);
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./Gilroy-Medium.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -80,7 +89,7 @@ html, body{
 }
 
 #page1 h1{
-    font-family: futura;
+    font-family: 'Futura';
     font-size: 15vw;
     padding-left: 1.3vw;
     line-height: 13vw;
@@ -88,7 +97,7 @@ html, body{
 }
 
 #page1 h1 span{
-    font-family: futura;
+    font-family: 'Futura';
     padding-left: 12.5vw;
 }
 
@@ -110,7 +119,7 @@ html, body{
     background-color: black;
     color: #fff;
     font-size: 1.3vw;
-    font-family: futura;
+    font-family: 'Futura';
     position: fixed;
     border-radius: 50%;
     opacity: 0;
@@ -122,7 +131,7 @@ html, body{
 .border {
     border-bottom: 1.8px solid #000;
     font-size: 15px;
-    font-family: gilroy;
+    font-family: 'Gilroy';
     padding-top: 20px;
     margin: 1rem 1.5rem;
     display: flex;
@@ -166,7 +175,7 @@ html, body{
     z-index: 9;
     transition: ease-in-out all 0.5s;
     padding: 20px;
-    font-family: futura;
+    font-family: 'Futura';
     cursor: pointer;
     font-size: 14px;
   }
@@ -187,7 +196,7 @@ html, body{
     justify-content: space-between;
     align-items: center;
     font-size: 11px;
-    font: gilroy;
+    font-family: 'Gilroy';
   }
   
   .dets {
@@ -236,7 +245,7 @@ html, body{
 
 .page3-text1 {
   width: 52%;
-  font-family: futura;
+  font-family: 'Futura';
   font-size: 3vw;
   line-height: 4.3vw;
   letter-spacing: -2px;
@@ -245,7 +254,7 @@ html, body{
 .page3-text2 {
   width: 31%;
   padding-right: 60px;
-  font-family: gilroy;
+  font-family: 'Gilroy';
   font-size: 1.2vw;
   display: flex;
   align-items: start;
@@ -259,7 +268,7 @@ html, body{
   border-bottom: 2px solid transparent;
   transition: ease-in-out all 0.3s;
   font-size: 1.2vw;
-  font-family: futura;
+  font-family: 'Futura';
 }
 
 .line:hover {
@@ -295,7 +304,7 @@ html, body{
   z-index: 2;
 }
 .child p{
-  font-family: gilroy;
+  font-family: 'Gilroy';
   font-size: 13px;
   padding: 5px 0;
   cursor: pointer;
@@ -317,7 +326,7 @@ html, body{
   text-align: center;
   width: 80%;
   margin: 2rem auto;
-  font-family: Futura;
+  font-family: 'Futura';
   font-weight: 800;
   line-height: 5rem;
   letter-spacing: -2px;
@@ -329,7 +338,7 @@ html, body{
   gap: 2rem;
 }
 .page5-text2 {
-  font-family: gilroy;
+  font-family: 'Gilroy';
   font-weight: 200;
   font-size: 1rem !important;
   letter-spacing: 0px;
@@ -343,7 +352,7 @@ html, body{
   gap: 2rem;
   font-size: 0.8rem;
   font-weight: 200;
-  font-family: futura;
+  font-family: 'Futura';
   line-height: 1.5rem;
   text-transform: uppercase;
   background-color: #000;
@@ -372,7 +381,7 @@ html, body{
 }
 
 .page6-Heading {
-  font-family: futura;
+  font-family: 'Futura';
   font-weight: 800;
   font-size: 1.8rem;
   line-height: 2.5rem;
@@ -422,7 +431,7 @@ html, body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: futura;
+  font-family: 'Futura';
   font-weight: 800;
   font-size: 1.2rem;
 }
@@ -453,7 +462,7 @@ footer div ul {
   line-height: 1.5rem;
   font-size: 0.9rem;
   margin: 1rem 0;
-  font-family: "Futura";
+  font-family: 'Futura';
   flex-direction: column;
   cursor: pointer;
 }
