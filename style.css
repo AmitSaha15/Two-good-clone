@@ -81,7 +81,7 @@ html, body{
 
 #page1 h1{
     font-family: futura;
-    font-size: 15.4vw;
+    font-size: 15vw;
     padding-left: 1.3vw;
     line-height: 13vw;
     letter-spacing: -8px;
@@ -89,7 +89,7 @@ html, body{
 
 #page1 h1 span{
     font-family: futura;
-    padding-left: 12.2vw;
+    padding-left: 12.5vw;
 }
 
 #video-container{
